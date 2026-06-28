@@ -2,18 +2,16 @@
 
 Claude Code skill for browser automation — ask first, act later.
 
-Based on [browser-act](https://www.browseract.com), enhanced with a **structured requirement clarification workflow** that ensures the AI understands your intent before touching the browser.
+Let AI fully understand what you need before opening the browser. Whether it's scraping data, automating login flows, or taking screenshots, browser-pilot clarifies your intent first, then executes precisely — no wasted runs, no guesswork.
 
-## What's different from browser-act?
+## What can browser-pilot do for you?
 
-The original browser-act skill executes immediately. browser-pilot adds a **Step 0** — a pre-execution clarification phase that asks the right questions based on your task type:
-
-- **Target** — what site, what action (scrape vs. interact)?
-- **Identity** — need login? multi-account isolation?
-- **Output** — what data, what format (text/markdown/screenshot/JSON)?
-- **Environment** — anti-bot protections? proxy? headed or headless?
-
-When the intent is already clear (e.g. `browser-act browser list`), it skips straight to execution.
+- **Scrape any website** — extract text, tables, or structured data from JS-rendered pages, even those requiring login
+- **Automate workflows** — login, fill forms, click through multi-step flows, handle file uploads
+- **Capture everything** — screenshots, DOM content, XHR/fetch responses, HAR network logs
+- **Multi-account parallel** — run isolated browser sessions for different accounts simultaneously
+- **Handle anti-bot challenges** — verification assistance with your authorization when automation gets blocked
+- **Human-agent collaboration** — switch to headed mode for manual steps, then hand back to automation
 
 ## Installation
 
